@@ -71,7 +71,7 @@ Bu topicte [sensor_msgs/Image Message](http://docs.ros.org/en/noetic/api/sensor_
 
 ## Arayüz içeriği
 <div align="center">
-<img src="media/scheme.png" width="256" height="225" />
+<img src="media/scheme.png" width="650" height="350" />
 </div>
 
 Yukarıdaki şematiğe uygun biçimde istenilen görselleştirmeleri yapmanızı istiyoruz. Sıcaklık ve bağıl nem görselleştirmeleri 'line chart' olarak anlık olarak 1 dakikadaki veriler görüntülenmelidir. Grafik çizdirmek için plotlyjs, chartjs gibi kütüphaneleri kullanabilirsiniz.
