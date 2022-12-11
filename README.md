@@ -3,9 +3,6 @@
 </div>
 
 # ITU Rover Interface Assignment
-
-```DİKKAT ÖDEVİN ŞU ANKİ HALİNDE ROSBAG DOSYASI EKSİKTİR. Bahsedilen ROSBAG dosyası ilerleyen günlerde dahil edilecektir.```
-
 Araçtan gelen bazı verilerin kaydını rosbag dosyasının içine kaydettik. Sizden yapmanızı istediğimiz şey ROSLIBjs kullanarak web tabanlı bir arayüzde bu verileri istenilen şekilde görselleştirmeniz.
 
 Ödevle ilgili daha fazla bilgiye ve yardımcı olacak kaynaklara aşağıdan ulaşabilirsiniz.
@@ -78,10 +75,10 @@ Bu topicte [std_msgs/Float32](http://docs.ros.org/en/lunar/api/std_msgs/html/msg
 
 Bu verinin yayınlanma periyodu 0.2 saniyedir.
 
-**/rover/camera/one**
+**/camera1/usb_cam1/image_raw**
 Bu topicte [sensor_msgs/Image Message](http://docs.ros.org/en/noetic/api/sensor_msgs/html/msg/Image.html) türünde bir veri bulunmaktadır. Paylaşılan veri görüntü şeklindedir. Görüntü anlık olarak güncellenmelidir.
 
-**/rover/camera/two**
+**/camera2/usb_cam2/image_raw**
 Bu topicte [sensor_msgs/Image Message](http://docs.ros.org/en/noetic/api/sensor_msgs/html/msg/Image.html) türünde bir veri bulunmaktadır. Paylaşılan veri görüntü şeklindedir. Görüntü anlık olarak güncellenmelidir.
 
 ## Arayüz içeriği
@@ -94,7 +91,7 @@ Yukarıdaki şematiğe uygun biçimde istenilen görselleştirmeleri yapmanızı
 <div align="center">
 <img src="media/line.png" width="640" height="400" />
 </div>
-Sıcaklık ve bağıl nem görselleştirmeleri yukarıdaki gibi bir 'line chart' olarak görselleştirmenizi istiyoruz. Veriler geldikçe grafiğe eklenmelidir ve son 1 dakika içerisinde gelen veriler görüntülenmelidir. Grafik çizdirmek için plotlyjs, chartjs gibi kütüphaneleri kullanabilirsiniz.
+Sıcaklık ve bağıl nem görselleştirmeleri yukarıdaki gibi bir 'line chart' olarak görselleştirmenizi istiyoruz. Veriler geldikçe grafiğe eklenmelidir ve son 2 saniye içerisinde gelen veriler görüntülenmelidir. Grafik çizdirmek için plotlyjs, chartjs gibi kütüphaneleri kullanabilirsiniz.
 
 <div align="center">
 <img src="media/battery.png" width="655" height="228" />
