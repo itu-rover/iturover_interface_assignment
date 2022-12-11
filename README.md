@@ -57,6 +57,7 @@ Bu topicte [std_msgs/Float32](http://docs.ros.org/en/lunar/api/std_msgs/html/msg
 Batarya kapasitesi yaklaşık olarak şu şekilde hesaplanır:
 
 Kalan kapasite (yüzde) = 100 * (Şu anki voltaj - 21.6) / 4.2
+
 `Örneğin; 24.6 V için 100 * (24.6 - 21.6) / 4.2 = 71%`
 
 Bu verinin yayınlanma periyodu 0.05 saniyedir.
