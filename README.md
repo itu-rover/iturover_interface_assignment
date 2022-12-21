@@ -23,6 +23,7 @@ Bu paketi klonlayıp derleyin.
 ```
 cd ~/rover_ws/src
 git clone https://github.com/itu-rover/iturover_interface_assignment
+git clone -b ros1 https://github.com/RobotWebTools/rosbridge_suite
 cd ..
 catkin build
 ```
