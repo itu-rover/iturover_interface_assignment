@@ -8,6 +8,11 @@ Araçtan gelen bazı verilerin kaydını rosbag dosyasının içine kaydettik. S
 Ödevle ilgili daha fazla bilgiye ve yardımcı olacak kaynaklara aşağıdan ulaşabilirsiniz.
 
 # Kurulum
+Gerekli paketleri aşağıdaki komut ile indirebilirsiniz.
+
+```
+sudo apt-get install ros-noetic-rosbridge-server
+```
 
 Bir workspace oluşturun.
 
@@ -23,7 +28,6 @@ Bu paketi klonlayıp derleyin.
 ```
 cd ~/rover_ws/src
 git clone https://github.com/itu-rover/iturover_interface_assignment
-git clone -b ros1 https://github.com/RobotWebTools/rosbridge_suite
 cd ..
 catkin build
 ```
